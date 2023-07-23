@@ -1,6 +1,7 @@
 package com.healthcare.HealthCare.Dto;
 
 
+import java.util.Locale;
 
 public class PatientDto {
 
@@ -39,6 +40,6 @@ public class PatientDto {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.email = email.toLowerCase(Locale.ROOT);
     }
 }
