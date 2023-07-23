@@ -3,7 +3,7 @@ package com.healthcare.HealthCare.Entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "patients1234")
+@Table(name = "patientsRS")
 
 public class Patient {
     @Id
